@@ -45,4 +45,22 @@
 
 
 %заплатки
-\def\Rho{\mathrm{P}}
+\newcommand{\defgreek}[2]{
+	\expandafter\def\csname #1\endcsname{\mathrm{#2}}
+}
+
+
+\defgreek{Alpha}{A}
+\defgreek{Beta}{B}
+\defgreek{Epsilon}{E}
+\defgreek{Zeta}{Z}
+\defgreek{Eta}{H}
+\defgreek{Iota}{I}
+\defgreek{Kappa}{K}
+\defgreek{Mu}{M}
+\defgreek{Nu}{N}
+\defgreek{Omicron}{O}
+\defgreek{omicron}{o}	
+\defgreek{Rho}{P}
+\defgreek{Tau}{T}
+\defgreek{Chi}{X}
